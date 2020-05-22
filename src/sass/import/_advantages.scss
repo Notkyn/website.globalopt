@@ -1,0 +1,37 @@
+.advantages {
+    background: url('../img/bg_agvantage.jpg') center (center/cover) no-repeat;
+    padding: 56px 0px 50px 0px;
+    min-height: 590px;
+
+    &__item {
+        margin-top: 32px;
+        display: flex;
+        justify-content: start;
+        position: relative;
+    }
+
+    &__img {
+        position: absolute;
+        width: 60px;
+        top: 5px;
+        left: 10px;
+    }
+
+    &__info {
+        margin-left: 85px;
+    }
+
+    &__title {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        color: $color-mine;
+    }
+
+    &__descr {
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        margin-top: 3px;
+    }
+}
