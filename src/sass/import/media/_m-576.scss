@@ -52,4 +52,25 @@
     .title {
         font-size: 20px;
     }
+
+    .advantages {
+        &__info {
+            margin-left: 0px;
+            margin-top: 70px;
+        }
+
+        &__img {
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        &__title {
+            text-align: center;
+        }
+
+        &__descr {
+            text-align: center;
+        }
+    }
 }
