@@ -1,0 +1,97 @@
+.promo {
+    min-height: 680px;
+    background: url('../img/bg_promo.jpg') center (center/cover) no-repeat;
+    padding: 132px 0px 80px 0px;
+
+    &__descr {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 72px;
+        line-height: 72px;
+        font-weight: 700;
+        color: $color-mine;
+        text-align: center;
+        margin-top: 28px;
+        margin-bottom: 0px;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 350px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 100%;
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: #ffffff;
+        }
+    }
+
+    &__subtitle {
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    &__item {
+        text-align: center;
+        margin-top: 85px;
+    }
+
+    &__info {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        color: #ffffff;
+    }
+
+    &__img {
+        width: 67px;
+        height: 67px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 100%;
+            display: box;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 355px;
+        left: 50%;
+        transform: translateX(20px);
+        display: block;
+        width: 388px;
+        height: 1px;
+        background-color: #ffffff;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 355px;
+        left: 50%;
+        transform: translateX(-408px);
+        display: block;
+        width: 388px;
+        height: 1px;
+        background-color: #ffffff;
+    }
+}

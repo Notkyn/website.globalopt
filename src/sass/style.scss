@@ -1,4 +1,14 @@
 @import './libs/fonts';
 @import './libs/bootstrap-reboot.min';
+@import './libs/bootstrap-grid.min.css';
+
+@import './base/variables';
 
 @import './import/general';
+@import './import/header';
+@import './import/promo';
+
+@import './block/btn';
+@import './block/menu';
+
+@import './import/media';

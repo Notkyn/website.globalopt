@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 60px;
+    padding: 0;
+
+    &__item {
+        border-right: 1px dotted #ffffff;
+        padding: 0px 15px;
+
+        &:last-child {
+            border-right: none;
+        }
+
+        &:first-child {
+            padding-left: 55px;
+        }
+    }
+
+    &__link {
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 400;
+
+        &:hover {
+            color: $color-mine;
+        }
+    }
+}

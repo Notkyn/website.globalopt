@@ -1,0 +1,51 @@
+  
+@media (max-width: 575px) {
+    .container {
+        width: 300px;
+    }
+
+    .promo {
+        &__title {
+            font-size: 21px;
+            line-height: 22px;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        &__descr {
+            font-size: 18px;
+            line-height: 18px;
+            display: none;
+        }
+
+        &__info {
+            font-size: 16px;
+        }
+
+        &__item {
+            margin-top: 40px;
+        }
+
+        &::after {
+            display: none;
+        }
+
+        &::before {
+            display: none;
+        }
+    }
+
+    .header {
+
+        &__wrapper {
+            margin-top: 40px;
+        }
+    }
+}
