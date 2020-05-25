@@ -45,4 +45,14 @@
             width: 150px;
         }
     }
+
+    .delivery {
+        &__wrapper {
+            height: 375px;
+        }
+
+        &__descr {
+            padding: 0px 120px;
+        }
+    }
 }

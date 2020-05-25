@@ -73,4 +73,17 @@
             text-align: center;
         }
     }
+
+    .work {
+        &::before {
+            display: none;
+        }
+    }
+
+    .delivery {
+
+        &::before {
+            display: none;
+        }
+    }
 }

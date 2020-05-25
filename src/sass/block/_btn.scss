@@ -6,6 +6,10 @@
     color: #ffffff;
     display: block;
 
+    &:hover {
+        background-color: #dc5238;
+    }
+
     &_large {
         width: 232px;
         height: 58px;

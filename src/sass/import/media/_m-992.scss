@@ -84,4 +84,14 @@
             padding: 0px;
         }
     }
+
+    .delivery {
+        &__wrapper {
+            height: 357px;
+        }
+
+        &__descr {
+            padding: 0px 10px;
+        }
+    }
 }
