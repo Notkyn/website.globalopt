@@ -4,4 +4,10 @@
     color: #000000;
     text-align: center;
     text-transform: uppercase;
+
+    &_light {
+        font-size: 28px;
+        font-weight: 400;
+        text-transform: none;
+    }
 }

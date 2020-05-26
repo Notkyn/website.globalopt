@@ -86,4 +86,10 @@
             display: none;
         }
     }
+
+    .consultation {
+        &__input {
+            width: 210px;
+        }
+    }
 }
