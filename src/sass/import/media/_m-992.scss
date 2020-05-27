@@ -91,4 +91,14 @@
             width: 210px;
         }
     }
+
+    .questions {
+        &__form {
+            width: 710px;
+
+            &-textarea {
+                width: 700px;
+            }
+        }
+    }
 }

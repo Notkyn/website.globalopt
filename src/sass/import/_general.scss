@@ -2,7 +2,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-input, button {
+input, button, textarea {
     &:active, &:hover, &:focus {
         outline: 0;
         outline-offset: 0;
@@ -12,5 +12,4 @@ input, button {
 .container {
     width: 1140px;
     margin: 0 auto;
-    font-weight: 700;
 }

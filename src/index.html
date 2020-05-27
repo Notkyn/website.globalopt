@@ -231,7 +231,7 @@
     <section class="consultation">
         <div class="container">
             <h2 class="title title_light">Заказать бесплатную консультацию</h2>
-            <div class="consultation__wrapper">
+            <form class="consultation__form" action="#">
                 <div class="consultation__wrap-img">
                     <div class="consultation__circle">
                         <img src="./icons/consultation.png" alt="consultation" class="consultation__img">
@@ -240,12 +240,12 @@
                 <div class="feed-input">
                     <input type="text" placeholder="Ваше имя...">
                     <input type="number" placeholder="Ваш номер телефона...">
-                    <input type="e-mail" placeholder="Ваш e-mail...">
+                    <input type="email" placeholder="Ваш e-mail...">
                 </div>
                 <div class="consultation__wrap-btn">
-                    <button class="btn btn_middle">Отправить заявку</button>
+                    <button class="btn btn_middle" type="submit">Отправить заявку</button>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
 
@@ -308,6 +308,22 @@
             <h2 class="title title_line">отзывы наших клиентов</h2>
             <div class="reviews__title">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
         </div>
+    </section>
+
+    <section class="questions">
+        <form action="#" class="questions__form">
+            <div class="questions__form-header">
+                <div class="questions__form-title">Остались вопросы?</div>
+                <div class="questions__form-subtitle">Напишите нам!</div>
+            </div>
+            <div class="feed-input">
+                <input type="text" placeholder="Ваше имя...">
+                <input type="number" placeholder="Ваш номер телефона...">
+                <input type="email" placeholder="Ваш e-mail...">
+            </div>
+            <textarea class="questions__form-textarea" placeholder="Сообщение..."></textarea>
+            <button class="btn btn_middle">Отправить заявку</button>
+        </form>
     </section>
 </body>
 </html>

@@ -80,9 +80,19 @@
         }
     }
 
-    .consultation {
-        &__input {
+    .feed-input {
+        input {
             width: 210px;
+        }
+    }
+
+    .questions {
+        &__form {
+            width: 240px;
+
+            &-textarea {
+                width: 210px;
+            }
         }
     }
 }

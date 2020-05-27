@@ -79,23 +79,34 @@
     }
 
     .consultation {
-        &__input {
-            width: 268px;
-            margin: 5px;
-        }
 
-        &__wrap-input {
-            flex-direction: column;
-            justify-content: start;
-            align-items: center;
-        }
-
-        &__wrapper {
+        &__form {
             height: 283px;
         }
 
         &__wrap-btn {
             top: 260px;
+        }
+    }
+
+    .feed-input {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+
+        input {
+            width: 268px;
+            margin: 5px;
+        }
+    }
+
+    .questions {
+        &__form {
+            width: 500px;
+
+            &-textarea {
+                width: 390px;
+            }
         }
     }
 }
