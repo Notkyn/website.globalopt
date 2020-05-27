@@ -1,6 +1,12 @@
 * {
     font-family: 'Roboto Condensed', sans-serif;
-    
+}
+
+input, button {
+    &:active, &:hover, &:focus {
+        outline: 0;
+        outline-offset: 0;
+    }
 }
 
 .container {
