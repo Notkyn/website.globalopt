@@ -1,0 +1,37 @@
+.shema {
+    min-height: 454px;
+    padding: 50px 0px 46px 0px;
+    background: url('../img/bg_shema_work.jpg') center (center/cover) no-repeat;
+
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__item {
+        margin-top: 30px;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__header {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 16px;
+        font-weight: 700;
+        color: $color-mine;
+    }
+
+    &__descr {
+        margin-top: 7px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 300;
+        color: #000000;
+    }
+}
