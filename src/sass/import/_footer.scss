@@ -1,0 +1,79 @@
+.footer {
+    min-height: 702px;
+    padding: 0px 0px 28px 0px;
+    background-color: #25333c;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 1140px;
+        height: 1px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #677177;
+        bottom: 80px;
+        position: absolute;
+    }
+
+    &__map {
+        iframe {
+            min-height: 500px;
+            width: 100%;
+            border: none;
+        }
+    }
+
+    &__logo {
+        width: 70px;
+        height: 70px;
+        margin-top: 24px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 16px;
+        color: #ffffff;
+        font-weight: 700;
+        margin-top: 52px;
+        padding-left: 30px;
+    }
+
+    &__bottom {
+        margin-top: 60px;
+    }
+
+    &__autor {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 30px;
+        color: #ffffff;
+    }
+
+    &__pollicy {
+        text-align: center;
+        a {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 30px;
+            color: $color-mine;
+        }
+    }
+
+    &__designer {
+        text-align: end;
+        padding-right: 45px;
+
+        span {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 30px;
+            color: #ffffff;
+        }
+
+        img {
+            width: 32px;
+            height: 32px;
+            margin-left: 10px;
+        }
+    }
+}

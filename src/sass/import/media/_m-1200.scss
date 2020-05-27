@@ -29,19 +29,21 @@
         &__logo {
             width: 80px;
             height: 80px;
-        }
+        }        
+    }
 
-        &__wrapper {
+    .call {
+        &-header {
             margin-top: 50px;
         }
 
-        &__tel {
+        &__phone {
             font-size: 17px;
         }
     }
 
     .btn {
-        &_header {
+        &_call {
             width: 150px;
         }
     }
@@ -53,6 +55,12 @@
 
         &__descr {
             padding: 0px;
+        }
+    }
+
+    .footer {
+        &::before {
+            width: 960px;
         }
     }
 }

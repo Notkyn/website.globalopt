@@ -42,13 +42,6 @@
         }
     }
 
-    .header {
-
-        &__wrapper {
-            margin-top: 40px;
-        }
-    }
-
     .title {
         font-size: 20px;
 
@@ -93,6 +86,25 @@
             &-textarea {
                 width: 210px;
             }
+        }
+    }
+
+    .footer {
+        &::before {
+            width: 300px;
+            bottom: 145px;
+        }
+        &__text {
+            display: none;
+        }
+
+        &__autor {
+            text-align: center;
+        }
+
+        &__designer {
+            text-align: center;
+            padding-right: 15px;
         }
     }
 }

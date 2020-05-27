@@ -1,0 +1,39 @@
+.call {
+    display: flex;
+    justify-content: end;
+
+    &__wrap {
+        color: #ffffff;
+        text-align: end;
+        
+
+        span {
+            font-size: 14px;
+            line-height: 14px;
+            font-weight: 300;
+        }
+    }
+
+    &__phone {
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: 700;
+        margin-top: 4px;
+
+        a {
+            color: #ffffff;
+
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+
+    &-footer {
+        margin-top: 38px;
+    }
+
+    &-header {
+        margin-top: 42px;
+    }
+}

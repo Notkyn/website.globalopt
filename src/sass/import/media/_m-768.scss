@@ -43,13 +43,12 @@
         display: none;
     }
 
-    .header {
-
-        &__wrapper {
+    .call {
+        &-header {
             margin-top: 40px;
         }
 
-        &__tel {
+        &__phone {
             a {
                 font-size: 12px;
             }
@@ -57,7 +56,7 @@
     }
 
     .btn {
-        &_header {
+        &_call {
             width: 110px;
             height: 35px;
             font-size: 10px;
@@ -106,6 +105,17 @@
 
             &-textarea {
                 width: 390px;
+            }
+        }
+    }
+
+    .footer {
+        &::before {
+            width: 540px;
+        }
+        &__designer {
+            span {
+                display: none;
             }
         }
     }
