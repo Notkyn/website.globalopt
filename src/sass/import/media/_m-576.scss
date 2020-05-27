@@ -51,6 +51,12 @@
 
     .title {
         font-size: 20px;
+
+        &_line {
+            &::before {
+                display: none;
+            }
+        }
     }
 
     .advantages {
@@ -71,19 +77,6 @@
 
         &__descr {
             text-align: center;
-        }
-    }
-
-    .work {
-        &::before {
-            display: none;
-        }
-    }
-
-    .delivery {
-
-        &::before {
-            display: none;
         }
     }
 

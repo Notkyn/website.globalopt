@@ -3,18 +3,6 @@
     padding: 52px 0px 0px 0px;
     position: relative;
 
-
-    &::before {
-        content: '';
-        width: 150px;
-        height: 1px;
-        background-color: $color-mine;
-        position: absolute;
-        top: 110px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
     &__descr {
         margin-top: 38px;
         font-size: 21px;

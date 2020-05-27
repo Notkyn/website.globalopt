@@ -1,13 +1,30 @@
 .title {
     font-size: 26px;
+    line-height: 26px;
     font-weight: 700;
     color: #000000;
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    position: relative;
 
     &_light {
         font-size: 28px;
+        line-height: 28px;
         font-weight: 400;
         text-transform: none;
+    }
+
+    &_line {
+        &:before {
+            position: absolute;
+            content: "";
+            width: 148px;
+            height: 1px;
+            background-color: $color-mine;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 45px;
+        }
     }
 }

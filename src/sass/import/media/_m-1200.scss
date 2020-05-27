@@ -41,7 +41,7 @@
     }
 
     .btn {
-        &_small {
+        &_header {
             width: 150px;
         }
     }
@@ -52,7 +52,7 @@
         }
 
         &__descr {
-            padding: 0px 120px;
+            padding: 0px;
         }
     }
 }

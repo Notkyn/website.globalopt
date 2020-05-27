@@ -1,0 +1,17 @@
+.feed-input {
+    display: flex;
+    justify-content: center;
+
+    input {
+        margin: 0px 3px;
+        height: 46px;
+        width: 268px;
+        border-radius: 60px;
+        border: 1px solid #cab0b0;
+        font-size: 13px;
+        font-weight: 300;
+        color: #000000;
+        line-height: 46px;
+        padding: 0px 29px;
+    }
+}

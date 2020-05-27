@@ -3,17 +3,6 @@
     padding: 52px 0px 58px 0px;
     position: relative;
 
-    &::before {
-        content: '';
-        width: 150px;
-        height: 1px;
-        background-color: $color-mine;
-        position: absolute;
-        top: 110px;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
     &__info {
         font-size: 21px;
         line-height: 24px;
@@ -25,12 +14,7 @@
 
     &__item {
         margin-top: 38px;
-        padding: 0px;
-        padding-right: 30px;
-
-        &:last-child {
-            padding-right: 0px;
-        }
+        padding: 0px 15px;
     }
 
     &__img {

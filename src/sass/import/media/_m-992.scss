@@ -64,28 +64,13 @@
     }
 
     .btn {
-        &_small {
+        &_header {
             width: 150px;
             height: 40px;
         }
     }
 
-    .work {
-        &__item {
-    
-            &:last-child {
-                padding-right: 30px;
-            }
-        }
-    }
-
-    .agent {
-        &__descr {
-            padding: 0px;
-        }
-    }
-
-    .managers {
+    .people {
         &__descr {
             padding: 0px;
         }

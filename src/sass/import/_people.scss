@@ -1,7 +1,14 @@
-.agent {
+.people {
     min-height: 342px;
-    background: url('../img/bg_agent.jpg') center (center/cover) no-repeat;
     padding: 62px 0px 76px 0px;
+
+    &_agent {
+        background: url('../img/bg_agent.jpg') center (center/cover) no-repeat;
+    }
+
+    &_managers {
+        background: url('../img/bg_managers.jpg') center (center/cover) no-repeat;
+    }
 
     &__wrapper {
         width: 102px;
