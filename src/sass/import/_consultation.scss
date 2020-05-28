@@ -5,10 +5,9 @@
 
     &__form {
         border: 1px solid #cab0b0;
-        height: 165px;
         width: 100%;
         margin-top: 72px;
-        padding-top: 68px;
+        padding: 68px 0px 40px 0px;
         position: relative;
     }
 
@@ -41,7 +40,7 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: 142px;
+        bottom: -23px;
         background-color: #ffffff;
     }
 }

@@ -38,6 +38,38 @@ $(document).ready(function(){
 
       $('input[name=phone]').mask("+7 (999) 99-99-999");
 
+      // Validation forms
+
+    function validationForms(form){
+        $(form).validate({
+          rules: {
+            name: {
+              required: true,
+              minlength: 2
+            },
+            phone: "required",
+            email: {
+              required: true,
+              email: true
+            }
+          }, 
+          messages: {
+            name: {
+              required: "Пожалуйста, введите имя",
+              minlength: jQuery.validator.format("Пожалуйста, введите больше {0} символов!")
+            },
+            phone: "Пожалуйста, введите номер телефона",
+            email: {
+              required: "Пожалуйста, введите вашу почту",
+              email: "Почта должна быть верной!"
+            }
+          }
+        });
+      }
+  
+      validationForms('.questions form');
+      validationForms('.consultation form');
+
   });
 
   

@@ -87,18 +87,12 @@
         }
     }
 
-    .consultation {
-        &__input {
-            width: 210px;
-        }
-    }
-
     .questions {
         &__form {
             width: 710px;
 
             &-textarea {
-                width: 700px;
+                width: 500px;
             }
         }
     }
@@ -109,6 +103,17 @@
         }
         &__text {
             padding-left: 60px;
+        }
+    }
+
+    .feed-input {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        input {
+            width: 268px;
+            margin: 5px;
         }
     }
 }

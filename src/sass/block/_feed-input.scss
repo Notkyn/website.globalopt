@@ -14,4 +14,15 @@
         line-height: 46px;
         padding: 0px 29px;
     }
+
+    label {
+        margin-bottom: 0px;
+        label {
+            text-align: center;
+            color: $color-mine;
+            font-size: 12px;
+            display: block;
+            margin: 5px 0px;
+        }
+    }
 }

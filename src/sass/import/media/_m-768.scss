@@ -77,28 +77,6 @@
         }
     }
 
-    .consultation {
-
-        &__form {
-            height: 283px;
-        }
-
-        &__wrap-btn {
-            top: 260px;
-        }
-    }
-
-    .feed-input {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-
-        input {
-            width: 268px;
-            margin: 5px;
-        }
-    }
-
     .questions {
         &__form {
             width: 500px;
