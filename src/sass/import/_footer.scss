@@ -26,7 +26,12 @@
     &__logo {
         width: 70px;
         height: 70px;
-        margin-top: 24px;
+        position: absolute;
+        top: 530px;
+    }
+
+    .row {
+        padding: 0px;
     }
 
     &__text {
@@ -35,7 +40,7 @@
         color: #ffffff;
         font-weight: 700;
         margin-top: 52px;
-        padding-left: 30px;
+        padding: 0px 0px 0px 120px;
     }
 
     &__bottom {

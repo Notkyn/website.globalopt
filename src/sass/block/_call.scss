@@ -1,10 +1,12 @@
 .call {
     display: flex;
     justify-content: flex-end;
+    padding: 0px;
 
     &__wrap {
         color: #ffffff;
         text-align: end;
+        margin-right: 18px;
         
 
         span {

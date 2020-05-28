@@ -5,8 +5,9 @@
     top: 0;
 
     &__logo {
-        margin-top: 23px;
+        position: absolute;
         width: 97px;
         height: 97px;
+        top: 23px;
     }
 }

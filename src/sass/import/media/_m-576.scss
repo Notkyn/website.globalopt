@@ -31,6 +31,10 @@
 
         &__item {
             margin-top: 25px;
+
+            &:nth-child(2) {
+                margin-top: 0px;
+            }
         }
 
         &::after {
@@ -40,6 +44,10 @@
         &::before {
             display: none;
         }
+    }
+
+    .menu {
+        display: none;
     }
 
     .title {
@@ -105,6 +113,11 @@
         &__designer {
             text-align: center;
             padding-right: 15px;
+        }
+
+        &__logo {
+            top: 540px;
+            left: 20px;
         }
     }
 

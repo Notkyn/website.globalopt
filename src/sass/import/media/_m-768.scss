@@ -9,7 +9,7 @@
             line-height: 38px;
 
             &::after {
-                top: 290px;
+                top: 340px;
             }
         }
 
@@ -29,37 +29,41 @@
 
         &::after {
             width: 220px;
-            top: 295px;
+            top: 345px;
         }
 
         &::before {
             width: 220px;
-            top: 295px;
+            top: 345px;
             transform: translateX(-240px);
         }
-    }
 
-    .menu {
-        display: none;
+        &__item {
+            &:nth-child(3), &:last-child  {
+                margin-top: 0px;
+            }
+        }
     }
 
     .call {
-        &-header {
-            margin-top: 40px;
-        }
+        display: block;
 
         &__phone {
-            a {
-                font-size: 12px;
-            }
+            margin: 0px 0px 10px 0px;
+        }
+
+        &-header {
+            margin-top: 50px;
+        }
+
+        &-footer {
+            margin-top: 10px;
         }
     }
 
     .btn {
         &_call {
-            width: 110px;
-            height: 35px;
-            font-size: 10px;
+            margin: 0px 10px 0px auto;
         }
     }
 
@@ -88,6 +92,10 @@
     }
 
     .footer {
+        &__text {
+            margin-top: 45px;
+        }
+
         &::before {
             width: 540px;
         }
