@@ -70,6 +70,20 @@ $(document).ready(function(){
       validationForms('.questions form');
       validationForms('.consultation form');
 
+      // Send forms
+
+      $('form').submit(function(e){
+        e.preventDefault();
+
+        /**
+         * Todo: ajax request
+         */
+  
+        $('form').trigger('reset');
+
+        return false;
+      });
+
   });
 
   
