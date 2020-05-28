@@ -119,4 +119,18 @@
             }
         }
     }
+
+    .slider {
+        width: 450px;
+
+        .slick {
+            &-prev, &-next {
+                left: 29%;        
+            }
+        
+            &-next {
+                left: 65%;
+            }
+        }
+    }
 }

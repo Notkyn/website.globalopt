@@ -63,4 +63,18 @@
             width: 960px;
         }
     }
+
+    .slider {
+        width: 700px;
+
+        .slick {
+            &-prev, &-next {
+                left: 35%;        
+            }
+        
+            &-next {
+                left: 60%;
+            }
+        }
+    }
 }

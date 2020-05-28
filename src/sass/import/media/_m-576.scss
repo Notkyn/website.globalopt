@@ -107,4 +107,18 @@
             padding-right: 15px;
         }
     }
+
+    .slider {
+        width: 250px;
+
+        .slick {
+            &-prev, &-next {
+                left: 10%;        
+            }
+        
+            &-next {
+                left: 80%;
+            }
+        }
+    }
 }
